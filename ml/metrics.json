@@ -1,0 +1,89 @@
+{
+  "dataset_size": 12000,
+  "test_size": 2400,
+  "accuracy": 97.67,
+  "precision": 98.97,
+  "recall": 96.33,
+  "f1_score": 97.64,
+  "roc_auc": 0.9996,
+  "confusion_matrix": {
+    "true_negatives": 1188,
+    "false_positives": 12,
+    "false_negatives": 44,
+    "true_positives": 1156
+  },
+  "feature_importances": [
+    {
+      "feature": "count_hyphens",
+      "importance": 0.2242
+    },
+    {
+      "feature": "has_https",
+      "importance": 0.2172
+    },
+    {
+      "feature": "count_equal",
+      "importance": 0.0882
+    },
+    {
+      "feature": "hostname_length",
+      "importance": 0.0803
+    },
+    {
+      "feature": "path_length",
+      "importance": 0.0668
+    },
+    {
+      "feature": "is_url_shortener",
+      "importance": 0.0666
+    },
+    {
+      "feature": "suspicious_keywords_count",
+      "importance": 0.0603
+    },
+    {
+      "feature": "url_length",
+      "importance": 0.05
+    },
+    {
+      "feature": "count_subdomains",
+      "importance": 0.0441
+    },
+    {
+      "feature": "count_dots",
+      "importance": 0.0375
+    },
+    {
+      "feature": "digit_ratio",
+      "importance": 0.0254
+    },
+    {
+      "feature": "shannon_entropy",
+      "importance": 0.0151
+    },
+    {
+      "feature": "tld_risk_score",
+      "importance": 0.0101
+    },
+    {
+      "feature": "count_question",
+      "importance": 0.009
+    },
+    {
+      "feature": "is_ip_address",
+      "importance": 0.0052
+    },
+    {
+      "feature": "count_at",
+      "importance": 0.0
+    },
+    {
+      "feature": "count_percent",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_port",
+      "importance": 0.0
+    }
+  ]
+}
